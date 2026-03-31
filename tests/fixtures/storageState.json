@@ -1,0 +1,41 @@
+{
+  "cookies": [
+    {
+      "name": "bugbank-auth",
+      "value": "true",
+      "domain": "bugbank.netlify.app",
+      "path": "/",
+      "expires": 1774972877,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://bugbank.netlify.app",
+      "localStorage": [
+        {
+          "name": "transaction:teste@test.com",
+          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+        },
+        {
+          "name": "teste@test.com",
+          "value": "{\"name\":\"Test\",\"email\":\"teste@test.com\",\"password\":\"test123\",\"accountNumber\":\"127-7\",\"balance\":1000,\"logged\":true}"
+        },
+        {
+          "name": "undefined",
+          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+        },
+        {
+          "name": "transferuser@teste.com",
+          "value": "{\"name\":\"Transfer user\",\"email\":\"transferuser@teste.com\",\"password\":\"test123\",\"accountNumber\":\"805-0\",\"balance\":1000,\"logged\":false}"
+        },
+        {
+          "name": "transaction:transferuser@teste.com",
+          "value": "[{\"id\":\"c4945cba-ff40-4d2d-ae68-e88d8f21224f\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+        }
+      ]
+    }
+  ]
+}
