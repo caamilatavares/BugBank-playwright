@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      EMAIL: ${{ secrests.EMAIL }}
-      PASSWORD: ${{ secrests.PASSWORD }}
-      NAME: ${{ secrests.NAME }}
-      ACCOUNT_NUMBER: ${{ secrests.ACCOUNT_NUMBER }}
-      TRANSFER_ACCOUNT_NUMBER: ${{ secrests.TRANSFER_ACCOUNT_NUMBER }}
-      TRANSFER_VALUE: ${{ secrests.TRANSFER_VALUE }}
+      EMAIL: ${{ secrets.EMAIL }}
+      PASSWORD: ${{ secrets.PASSWORD }}
+      NAME: ${{ secrets.NAME }}
+      ACCOUNT_NUMBER: ${{ secrets.ACCOUNT_NUMBER }}
+      TRANSFER_ACCOUNT_NUMBER: ${{ secrets.TRANSFER_ACCOUNT_NUMBER }}
+      TRANSFER_VALUE: ${{ secrets.TRANSFER_VALUE }}
 
     steps:
     - uses: actions/checkout@v4
