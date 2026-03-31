@@ -1,24 +1,39 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
+
 jobs:
+
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
+    env:
+      EMAIL: ${{ secrests.EMAIL }}
+      PASSWORD: ${{ secrests.PASSWORD }}
+      NAME: ${{ secrests.NAME }}
+      ACCOUNT_NUMBER: ${{ secrests.ACCOUNT_NUMBER }}
+      TRANSFER_ACCOUNT_NUMBER: ${{ secrests.TRANSFER_ACCOUNT_NUMBER }}
+      TRANSFER_VALUE: ${{ secrests.TRANSFER_VALUE }}
+
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
+
     - name: Install dependencies
-      run: npm ci
+      run: npm install
+
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+
     - name: Run Playwright tests
       run: npx playwright test
+
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
