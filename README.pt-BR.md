@@ -4,7 +4,7 @@
 
 🇧🇷 Português | 🇺🇸 [English Version](./README.md)
 
-# 🧪 Test Automation - BugBank (Playwright)
+# 🧪 Test Automation - BugBank (Playwright)  
 
 ## 📌 Overview
 
