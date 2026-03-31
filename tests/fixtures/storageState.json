@@ -5,7 +5,7 @@
       "value": "true",
       "domain": "bugbank.netlify.app",
       "path": "/",
-      "expires": 1774972877,
+      "expires": 1775068424,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -17,23 +17,23 @@
       "localStorage": [
         {
           "name": "transaction:teste@test.com",
-          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+          "value": "[{\"id\":\"2879c5c1-6fdc-4b7b-928c-1107156a3eec\",\"date\":\"31/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
         },
         {
           "name": "teste@test.com",
-          "value": "{\"name\":\"Test\",\"email\":\"teste@test.com\",\"password\":\"test123\",\"accountNumber\":\"127-7\",\"balance\":1000,\"logged\":true}"
+          "value": "{\"name\":\"Test\",\"email\":\"teste@test.com\",\"password\":\"test123\",\"accountNumber\":\"853-8\",\"balance\":1000,\"logged\":true}"
         },
         {
           "name": "undefined",
-          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+          "value": "[{\"id\":\"2879c5c1-6fdc-4b7b-928c-1107156a3eec\",\"date\":\"31/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
         },
         {
           "name": "transferuser@teste.com",
-          "value": "{\"name\":\"Transfer user\",\"email\":\"transferuser@teste.com\",\"password\":\"test123\",\"accountNumber\":\"805-0\",\"balance\":1000,\"logged\":false}"
+          "value": "{\"name\":\"Transfer user\",\"email\":\"transferuser@teste.com\",\"password\":\"test123\",\"accountNumber\":\"330-3\",\"balance\":1000,\"logged\":false}"
         },
         {
           "name": "transaction:transferuser@teste.com",
-          "value": "[{\"id\":\"c4945cba-ff40-4d2d-ae68-e88d8f21224f\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+          "value": "[{\"id\":\"f5de1798-01b7-41e1-a777-08d96aed08b0\",\"date\":\"31/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
         }
       ]
     }
