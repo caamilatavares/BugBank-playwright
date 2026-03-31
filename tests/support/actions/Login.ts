@@ -26,7 +26,7 @@ export class Login {
     }
 
     async validateLogin(name: string): Promise<void> {
-        await this.page.waitForLoadState('networkidle')
+        await expect(this.page.locator('#textName')).toBeVisible()
         await expect(this.page.locator('#textName')).toHaveText(`Olá ${name},`)
     }
 
