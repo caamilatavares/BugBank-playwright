@@ -5,7 +5,11 @@
       "value": "true",
       "domain": "bugbank.netlify.app",
       "path": "/",
+<<<<<<< HEAD
       "expires": 1775069922,
+=======
+      "expires": 1774972877,
+>>>>>>> parent of e468ee6 (fixing Ci)
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -17,6 +21,7 @@
       "localStorage": [
         {
           "name": "transaction:teste@test.com",
+<<<<<<< HEAD
           "value": "[{\"id\":\"ad25fc97-7028-4b64-a32f-12cf445aa71f\",\"date\":\"31/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
         },
         {
@@ -34,6 +39,25 @@
         {
           "name": "transaction:transferuser@teste.com",
           "value": "[{\"id\":\"531d5105-42ac-4a54-a327-26fb37ae1e78\",\"date\":\"31/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+=======
+          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+        },
+        {
+          "name": "teste@test.com",
+          "value": "{\"name\":\"Test\",\"email\":\"teste@test.com\",\"password\":\"test123\",\"accountNumber\":\"127-7\",\"balance\":1000,\"logged\":true}"
+        },
+        {
+          "name": "undefined",
+          "value": "[{\"id\":\"ffbdd543-f403-426b-b98c-6df8727da9d4\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+        },
+        {
+          "name": "transferuser@teste.com",
+          "value": "{\"name\":\"Transfer user\",\"email\":\"transferuser@teste.com\",\"password\":\"test123\",\"accountNumber\":\"805-0\",\"balance\":1000,\"logged\":false}"
+        },
+        {
+          "name": "transaction:transferuser@teste.com",
+          "value": "[{\"id\":\"c4945cba-ff40-4d2d-ae68-e88d8f21224f\",\"date\":\"30/03/2026\",\"type\":\"Abertura de conta\",\"transferValue\":1000,\"description\":\"Saldo adicionado ao abrir conta\"}]"
+>>>>>>> parent of e468ee6 (fixing Ci)
         }
       ]
     }

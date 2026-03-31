@@ -31,7 +31,7 @@ export class Login {
     }
 
     async validateAccountNumber(accountNumber: string): Promise<void> {
-        await this.page.waitForLoadState('networkidle')
+        await expect(this.page.locator('#textAccountNumber')).toBeVisible()
         await expect(this.page.locator('#textAccountNumber')).toContainText(accountNumber)
     }
 

@@ -31,9 +31,7 @@ export default defineConfig({
     baseURL: 'https://bugbank.netlify.app',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
-    screenshot: 'only-on-failure',
-    video: 'on',
+    trace: 'on-first-retry'
   },
 
   /* Configure projects for major browsers */
