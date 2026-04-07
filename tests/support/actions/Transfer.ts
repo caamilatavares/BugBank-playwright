@@ -21,9 +21,9 @@ export class Transfer extends Modal {
         await this.page.getByText('Transferir agora').click()
     }
 
-    async validateTransfer(): Promise<void>{
+    async validateTransfer(message: string): Promise<void>{
         const modalText = await this.getModalText()
-        await expect(modalText).toMatch('Transferencia realizada com sucesso')
+        await expect(modalText).toMatch(message)
         await this.closeModal()
     }
 

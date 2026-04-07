@@ -1,17 +1,13 @@
 import { test } from '../../fixtures/testSetup'
+import { createUser } from '../../factories/user.factory'
 
-type User = {
-  email: string
-  password: string
-  name: string
-}
+test.describe('Register Feature', { tag: '@register' }, async () => {
+  test('Should register successfuly', async ({ register }) => {
+    const user = createUser()
 
-const user: User = {
-  email: 'registertest@test.com',
-  password: process.env.PASSWORD!,
-  name: 'Test register'
-}
-
-test('Should register successfuly', async ({ modal, register }) => {
-  await register.doRegistration(user.email, user.name, user.password)
+    await register.visit()
+    await register.fillRegistrationForm(user.email, user.name, user.password)
+    await register.sendRegistrationForm()
+    await register.validateRegistration()
+  })
 })

@@ -67,6 +67,7 @@ export default defineConfig({
     {
       name: 'public',
       testMatch: '**/e2e/public/**/*.spec.ts',
+      grep: /@register/,
       use: {
         storageState: undefined,
       },

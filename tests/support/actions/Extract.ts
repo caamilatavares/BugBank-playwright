@@ -12,9 +12,16 @@ export class Extract extends Transfer {
     }
 
     async validatingExtract(initialValue: number, transferValue: number): Promise<void>{
-        const valueInAccount = await calculateBalanceAfterTransfer(initialValue, transferValue)
-        await expect(
-            this.page.locator('#textBalanceAvailable')
-        ).toContainText(`R$ ${valueInAccount},00`) 
+        let valueInAccount = await calculateBalanceAfterTransfer(initialValue, transferValue)
+        let balance = ''
+
+        if(valueInAccount >  999) {
+            balance = valueInAccount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+        } else {
+            balance = valueInAccount.toString()
+        }   
+        
+        await expect(this.page.locator('#textBalanceAvailable'))
+            .toContainText(`R$ ${balance},00`)
     }
 }
