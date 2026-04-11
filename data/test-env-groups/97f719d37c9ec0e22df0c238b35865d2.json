@@ -1,1 +1,1 @@
-{"id":"97f719d37c9ec0e22df0c238b35865d2","fullName":"e2e/logged/transfer.spec.ts:26:7","name":"Should not do transfers to its own account","status":"passed","testResultsByEnv":{"default":"bb02538895dcd5f42deb590b82b17e99"}}
+{"id":"97f719d37c9ec0e22df0c238b35865d2","fullName":"e2e/logged/transfer.spec.ts:26:7","name":"Should not do transfers to its own account","status":"passed","testResultsByEnv":{"default":"2fe39f0184f6d63b53f287220e8ee643"}}

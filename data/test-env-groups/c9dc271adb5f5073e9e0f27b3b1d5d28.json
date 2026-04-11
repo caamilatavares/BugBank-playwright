@@ -1,1 +1,1 @@
-{"id":"c9dc271adb5f5073e9e0f27b3b1d5d28","fullName":"e2e/logged/transfer.spec.ts:39:7","name":"Should not do transfers to an inexistent account","status":"passed","testResultsByEnv":{"default":"3b418408d1dd122f259f0030decf2d4a"}}
+{"id":"c9dc271adb5f5073e9e0f27b3b1d5d28","fullName":"e2e/logged/transfer.spec.ts:39:7","name":"Should not do transfers to an inexistent account","status":"passed","testResultsByEnv":{"default":"76e8a0c9b9ea4a5b37e494dfa6c0f00d"}}
