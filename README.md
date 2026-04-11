@@ -179,9 +179,11 @@ npx playwright test tests/e2e/public
 
 After execution, the last report can be viewed via GitHub Pages:
 
-[![View Report](https://img.shields.io/badge/Report-Open%20HTML-blue?style=for-the-badge)](https://caamilatavares.github.io/BugBank-playwright/)
+<a href="https://caamilatavares.github.io/BugBank-playwright/" target="_blank">
+  <img src="https://img.shields.io/badge/Report-Open%20HTML-blue?style=for-the-badge" />
+</a>
 
-Você também pode acessar o relatório da execução através de:
+You can also see the report by:
 
 ```bash
 allure serve allure-results

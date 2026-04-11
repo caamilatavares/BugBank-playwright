@@ -179,7 +179,9 @@ npx playwright test tests/e2e/public
 
 Após a execução, o último relatório HTML pode ser visualizado através do GitHub Pages:
 
-[![View Report](https://img.shields.io/badge/Report-Open%20HTML-blue?style=for-the-badge)](https://caamilatavares.github.io/BugBank-playwright/)
+<a href="https://caamilatavares.github.io/BugBank-playwright/" target="_blank">
+  <img src="https://img.shields.io/badge/Relatório-Abrir%20HTML-blue?style=for-the-badge" />
+</a>
 
 Você também pode acessar o relatório da execução através de:
 
